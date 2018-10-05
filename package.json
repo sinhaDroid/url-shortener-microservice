@@ -1,0 +1,24 @@
+{
+	"name": "url-shortener-microservice",
+	"version": "0.0.1",
+	"description": "Node Js Application",
+	"main": "server.js",
+	"scripts": {
+		"start": "node server.js"
+	},
+	"dependencies": {
+		"express": "^4.16.3",
+		"mongodb": "^3.1.6",
+		"mongoose": "^5.3.1",
+		"cors": "^2.8.4",
+		"body-parser": "^1.18.3"
+	},
+	"engines": {
+		"node": "4.4.5"
+	},
+	"keywords": [
+		"node",
+		"express"
+	],
+	"license": "MIT"
+}
